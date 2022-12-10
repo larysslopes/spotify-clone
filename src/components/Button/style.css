@@ -1,0 +1,24 @@
+.button{
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    border-radius: 50px;
+    border: none;
+}
+
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform(0.3ms);
+}
+
+.sucesso{
+    background-color: #1ed760;
+    color: #2941ab;
+}
+
+.error{
+    background-color: red;
+    color: white;
+}
