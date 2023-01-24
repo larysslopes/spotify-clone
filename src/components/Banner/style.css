@@ -1,12 +1,15 @@
 #banner {
     background-color: #2941ab;
-    height: 90vh;
+    height: 95vh;
     color: #1ed760;
     display: flex;
     justify-content:  center;
     align-items: center;
     flex-direction: column;
     gap: 30px;
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-position: 46% 4%;
+    background-size: 180%;
 }
 
 #banner h1 {

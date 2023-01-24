@@ -1,4 +1,28 @@
-#header {
+#menu {
     background-color: black;
-    padding: 40px;
+    padding: 15px;
+}
+
+#menu .wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#menu nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+}
+
+#menu nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#menu nav a:hover {
+  color: #1ed760;
 }
