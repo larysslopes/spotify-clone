@@ -1,0 +1,20 @@
+#footer {
+    background-color: black;
+    display: flex;
+    padding: 30px 10px;
+  }
+  
+  
+#footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0% 8%;
+  gap: 30px;
+
+}
+
+#footer .redes {
+  display: flex;
+  gap: 20px;
+}
